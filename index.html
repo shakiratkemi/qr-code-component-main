@@ -29,14 +29,14 @@
         width: 350px;
       }
 
-      .content img {
+      .challenge-img {
         display: block;
         max-height: 200px;
         margin: 0 auto;
         border-radius: 10px;
       }
 
-      .content h2 {
+      .text-2 {
         color: gainsboro;
       }
 
@@ -55,24 +55,39 @@
   </head>
 
   <body>
-    <div class="content">
-      <img src="./images/image-qr-code.png" alt="QR image" />
-      <h1>Improve your front-end skills by building projects</h1>
-      <h2>
+    <header class="content">
+      <img
+        src="./images/image-qr-code.png"
+        class="challenge-img"
+        alt="QR image"
+      />
+      <h1 class="text-1">Improve your front-end skills by building projects</h1>
+      <h2 class="text-2">
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
       </h2>
-    </div>
+    </header>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="first-link"
+        alt="Frontend mentor URL"
+      >
+        Frontend Mentor
+      </a>
+      . Coded by
       <a
         href="https://github.com/shakiratkemi/qr-code-component-main/blob/main/index.html"
-        >Shakirat</a
-      >.
-    </div>
+        class="second-link"
+        target="_blank"
+        alt="Repository URL"
+      >
+        Shakirat</a
+      >
+      .
+    </footer>
   </body>
 </html>
